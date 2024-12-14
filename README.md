@@ -1,6 +1,17 @@
 # Jester
 一款基于 控制台指令操作 的 NUGET 发布工具。
 
+## 安全说明
+
+由于未公开源代码，因此列出相关依赖项以保证用户自主评估安全风险。
+
+依赖项列表：
+1. `"Microsoft.CodeAnalysis.CSharp"` Roslyn 的 C# 语言构建库, 作者：Microsoft
+2. `NuGet.Versioning` Semantic Versioning 的操作库，作者: Microsoft
+3. `Spectre.Console` 控制台界面，作者: Patrik Svensson, Phil Scott, Nils Andresen, Cedric Luthi, Frank Ray.
+> Spectre.Console 项目地址：https://github.com/spectreconsole/spectre.console
+> 个人觉得不太好用，还有 Bug.
+
 ## 工程约束
 
 ### 项目结构
